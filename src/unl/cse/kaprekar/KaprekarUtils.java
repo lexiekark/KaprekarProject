@@ -24,8 +24,8 @@ public class KaprekarUtils {
 	 */
 	public static boolean isKaprekar(int n) {
 		
-		if(n < 1); {
-			return 0;
+		if(n < 1) {
+			System.out.println("This is not an integer");
 		} 
 		
 		//we use a long to accommodate larger squares
